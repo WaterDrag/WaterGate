@@ -2,7 +2,8 @@
 
 **Prohlížeč, který si poskládáte podle sebe.** WaterGate stojí na jádře Firefoxu a přidává to,
 co znáte z Vivaldi: boční panely, skupiny listů, pracovní prostory, dlaždice, rychlé příkazy,
-gesta a editor lišt. K tomu aplikace pro Android, která s počítačem sdílí data a umí ho dálkově ovládat.
+gesta a editor lišt. K tomu aplikace pro Android, která s počítačem sdílí prostory i data a umí ho
+dálkově ovládat.
 
 [![Prohlídka WaterGate (video, 3 min)](https://github.com/WaterDrag/WaterGate/releases/latest/download/tour-poster.jpg)](https://github.com/WaterDrag/WaterGate/releases/latest/download/tour.mp4)
 
@@ -30,17 +31,23 @@ přihlášení k synchronizaci a nastavení výchozího prohlížeče.
   překladač, pošta, kalendář, úkoly, odběry a kontakty. Ukotvený, nebo plovoucí přes stránku.
 - **Webové panely**: libovolný web v bočním panelu, s odznakem nepřečtených zpráv.
 - **Skupiny listů**: list přetažený na jiný list vytvoří skupinu, druhá řada ukáže její listy.
-- **Pracovní prostory**: oddělené sady listů; vidíte i listy otevřené na telefonu a dalších počítačích.
+- **Pracovní prostory**: oddělené sady listů, stejné na počítači i telefonu – list otevřený na jednom
+  zařízení najdete ve stejném prostoru na druhém. Prostor jde nechat jen na jednom zařízení.
+- **Skryté prostory**: prostor, který není v žádném seznamu; otevře se napsáním `::` a jeho fráze
+  do adresního řádku. Každý má vlastní frázi a vlastní přihlášení na webech, nic z něj nejde do
+  historie, hesel ani stahování a na ostatní zařízení putuje jen zašifrovaný frází.
 - **Dlaždicování**: dva až čtyři listy vedle sebe, pod sebou nebo v mřížce.
 - **Rychlé příkazy** (F2): příkazy, listy, záložky, historie, kalkulačka; řetězce příkazů a vlastní zkratky.
 - **Gesta myší**, **editor lišt** (každé tlačítko na kteroukoli lištu), **motivy** a barva podle stránky,
   tmavý režim webů, plánované přepínání vzhledu.
-- **Uspávání listů** a „Vždy vzhůru“ pro listy, které mají běžet.
+- **Uspávání listů** a „Vždy vzhůru“ pro listy, které mají běžet (jen v prostoru, který máte otevřený).
+- **Správce hesel** v Nastavení a nabídka uložených hesel při přihlašování.
 - **Nastavení** (Ctrl+F12) s nápovědou a příkladem u každé volby.
 - Předinstalovaný **uBlock Origin**, vypnutá telemetrie.
 
 **Na telefonu (WaterGate Mobile)**
 - Synchronizace záložek, historie, hesel a otevřených listů s počítačem (účet Mozilla).
+- **Stejné prostory jako na počítači** včetně skrytých, přepínač nad seznamem listů.
 - Ukládání a vyplňování hesel, panely, doplňky, blokování sledovacích prvků.
 - **Ovládání počítače**: spárování QR kódem, přepínání listů, přehrávání a hlasitost,
   zrcadlení stránky do telefonu s klepáním a psaním.
